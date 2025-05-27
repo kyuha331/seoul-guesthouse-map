@@ -10,7 +10,7 @@ st.set_page_config(page_title="서울 외국인 도시민박업 지도", layout=
 st.title("📍 서울 외국인 도시민박업 위치 시각화")
 
 # JSON 자동 로딩 (같은 디렉토리에 있는 파일 사용)
-JSON_PATH = "서울시 외국인관광도시민박업 인허가 정보.json"
+JSON_PATH = 서울시 외국인관광도시민박업 인허가 정보.json
 try:
     with open(JSON_PATH, encoding="utf-8") as f:
         raw_data = json.load(f)
